@@ -1,0 +1,14 @@
+# Stable Baselines3 and dependencies for Python 3.12 on Linux & Windows
+stable-baselines3==2.2.1
+gymnasium==0.29.1
+shimmy>=0.2.1
+
+# Recommended extras for Atari or Box2D environments (optional)
+# For Atari (only if needed): pip install stable-baselines3[extra]
+# If you use Box2D environments:
+box2d-py==2.3.5
+
+# To ensure compatibility with SB3 and Gymnasium
+numpy>=1.21
+torch>=2.0.0,<3.0.0
+matplotlib>=3.4.0
